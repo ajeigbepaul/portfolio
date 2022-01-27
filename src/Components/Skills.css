@@ -1,0 +1,104 @@
+.skills {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../skills.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  margin: 0px auto;
+}
+.skills__body {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: lavender; */
+}
+.skills__body img {
+  width: 100%;
+  object-fit: contain;
+  height: 50px;
+  border-radius: 10px;
+}
+.skills__body h6 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.skills__side {
+  /* padding: 10px 0px; */
+  margin-top: 50px;
+}
+.skills__side h2 {
+  color: rgb(235, 203, 227);
+}
+.react,
+.node,
+.mongodb,
+.firebase,
+.git,
+.reactnative,
+.html,
+.css,
+.boostrap,
+.figma,
+.adobexd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 100px;
+  box-shadow: 0px -4px 15px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease-out 0.5s;
+  background-color: lavender;
+}
+.react:hover {
+  transform: translateY(5px);
+}
+.figma:hover {
+  transform: translateY(5px);
+}
+.boostrap:hover {
+  transform: translateY(5px);
+}
+.adobexd:hover {
+  transform: translateY(5px);
+}
+.html:hover {
+  transform: translateY(5px);
+}
+.css:hover {
+  transform: translateY(5px);
+}
+.reactnative:hover {
+  transform: translateY(5px);
+}
+.git:hover {
+  transform: translateY(5px);
+}
+.firebase:hover {
+  transform: translateY(5px);
+}
+.node:hover {
+  transform: translateY(5px);
+}
+.mongodb:hover {
+  transform: translateY(5px);
+}
+
+@media screen and (max-width: 560px) {
+  .skills {
+    height: auto;
+  }
+  .skills__body {
+    width: max-content;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

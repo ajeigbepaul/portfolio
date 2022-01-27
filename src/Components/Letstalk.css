@@ -1,0 +1,42 @@
+.letstalk {
+  width: 50%;
+  background-color: rgb(87, 22, 71);
+  margin: 0px auto;
+}
+.letstalk__form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  /* background-color: rgb(68, 62, 51); */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-control > label {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgb(235, 203, 227);
+}
+.form-control > textarea {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.form-control input[type="submit"] {
+  background-color: rgb(218, 81, 172);
+  color: rgb(24, 19, 22);
+  cursor: pointer;
+}
+
+.form__input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
