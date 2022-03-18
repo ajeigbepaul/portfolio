@@ -3,7 +3,7 @@
   height: 100vh;
   /* background-color: rgb(87, 22, 71); */
   background: url("../bg2.jpg");
-  background-position: center;
+  background-position: 40% 10%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -91,6 +91,13 @@
   .banner__body {
     width: 250px;
     margin-left: 20px;
+  }
+  /* .banner__body h1 {
+   
+    color: white;
+  } */
+  .banner__body p {
+    color: rgb(235, 203, 227);
   }
 }
 
